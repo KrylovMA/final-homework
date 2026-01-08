@@ -9,10 +9,10 @@
 для работы кода нужно
 - файл логов - security_logs.json
 и добавить в .env файл данные
-    SEND_FROM_EMAIL=почта@gmail.com
-    SEND_TO_EMAIL=почта@gmail.com
-    EMAIL_APP_PASSWORD=пароль приложения 
-    API_KEY=ключ к api 
+    - SEND_FROM_EMAIL=почта@gmail.com
+    - SEND_TO_EMAIL=почта@gmail.com
+    - EMAIL_APP_PASSWORD=пароль приложения 
+    - API_KEY=ключ к api 
 
 в результате код создаст 
 - virustotal_report.csv - текстовый отчет
