@@ -1,0 +1,122 @@
+[
+  {
+    "timestamp": "2026-01-08 14:49:52",
+    "source_ip": "172.20.0.15",
+    "destination_ip": "192.168.1.1",
+    "source_port": 18297,
+    "destination_port": 3389,
+    "event_type": "System Check",
+    "severity": "INFO",
+    "hash": "8559a90888b7189f0063828887dad508",
+    "user": "service_account",
+    "description": "System Check from 172.20.0.15:18297 to port 3389"
+  },
+  {
+    "timestamp": "2026-01-07 18:49:52",
+    "source_ip": "5.188.206.10",
+    "destination_ip": "192.168.1.1",
+    "source_port": 33487,
+    "destination_port": 443,
+    "event_type": "User Login",
+    "severity": "INFO",
+    "hash": "713e83db96713c1e3e79a06723e8b9c2",
+    "user": "guest",
+    "description": "User Login from 10.0.0.5:33487 to port 443"
+  },
+  {
+    "timestamp": "2026-01-07 18:49:52",
+    "source_ip": "203.0.113.1",
+    "destination_ip": "192.168.1.1",
+    "source_port": 37610,
+    "destination_port": 22,
+    "event_type": "Suspicious Activity",
+    "severity": "HIGH",
+    "hash": "717aa08dff8dd4a3549eb13e73adf5ca",
+    "user": "user1",
+    "description": "Suspicious Activity from 203.0.113.1:37610 to port 22"
+  },
+  {
+    "timestamp": "2026-01-08 08:49:52",
+    "source_ip": "185.220.101.1",
+    "destination_ip": "192.168.1.1",
+    "source_port": 34439,
+    "destination_port": 22,
+    "event_type": "User Login",
+    "severity": "LOW",
+    "hash": "2ea573d19a87768cff9174091d731a19",
+    "user": "admin",
+    "description": "Suspicious Activity from 185.220.101.1:34439 to port 22"
+  },
+  {
+    "timestamp": "2026-01-08 04:49:52",
+    "source_ip": "45.9.148.123",
+    "destination_ip": "192.168.1.1",
+    "source_port": 42853,
+    "destination_port": 3389,
+    "event_type": "User Login",
+    "severity": "LOW",
+    "hash": "23b335ae10f914fb413f542297d90dcb",
+    "user": "user1",
+    "description": "User Login from 45.9.148.123:42853 to port 3389"
+  },
+  {
+    "timestamp": "2026-01-07 16:49:52",
+    "source_ip": "206.168.34.44",
+    "destination_ip": "192.168.1.1",
+    "source_port": 51014,
+    "destination_port": 80,
+    "event_type": "Malware Detected",
+    "severity": "CRITICAL",
+    "hash": "91286f4c5458dd65bfb1eecf349bd243",
+    "user": "user1",
+    "description": "Malware Detected from 206.168.34.44:51014 to port 80"
+  },
+  {
+    "timestamp": "2026-01-08 05:49:52",
+    "source_ip": "172.16.0.10",
+    "destination_ip": "192.168.1.1",
+    "source_port": 59112,
+    "destination_port": 80,
+    "event_type": "User Login",
+    "severity": "MEDIUM",
+    "hash": "3e97cc9f2d3703bc301efe1289254462",
+    "user": "user1",
+    "description": "User Login from 172.16.0.10:59112 to port 80"
+  },
+  {
+    "timestamp": "2026-01-08 14:49:52",
+    "source_ip": "8.8.8.8",
+    "destination_ip": "192.168.1.1",
+    "source_port": 15744,
+    "destination_port": 443,
+    "event_type": "System Check",
+    "severity": "INFO",
+    "hash": "606fa752a415611a4f9e3afa24a64c91",
+    "user": "user1",
+    "description": "System Check from 8.8.8.8:15744 to port 443"
+  },
+  {
+    "timestamp": "2026-01-08 01:49:52",
+    "source_ip": "107.189.31.103",
+    "destination_ip": "192.168.1.1",
+    "source_port": 50474,
+    "destination_port": 80,
+    "event_type": "Suspicious Activity",
+    "severity": "HIGH",
+    "hash": "397ffd749b9c0d540514070e0ea9086e",
+    "user": "user1",
+    "description": "Suspicious Activity from 107.189.31.103:50474 to port 80"
+  },
+  {
+    "timestamp": "2026-01-07 16:49:52",
+    "source_ip": "192.168.1.150",
+    "destination_ip": "192.168.1.1",
+    "source_port": 25896,
+    "destination_port": 80,
+    "event_type": "User Login",
+    "severity": "INFO",
+    "hash": "a036bfe8da22eb534000e72ee4e48305",
+    "user": "guest",
+    "description": "User Login from 192.168.1.150:25896 to port 80"
+  }
+]
